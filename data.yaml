@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['gauge']
+
+roboflow:
+  workspace: analog-guage-reader
+  project: gaugereader-srutl
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/analog-guage-reader/gaugereader-srutl/dataset/4
